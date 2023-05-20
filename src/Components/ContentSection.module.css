@@ -1,0 +1,73 @@
+.box {
+    position: absolute;
+    color: #000000;
+    left: 20%;
+    top: 0%;
+    height: auto;
+    width: 80%;
+}
+
+.messageBox {
+    background-color: #454754;
+    width: 80%;
+    min-height: 80vh;
+    max-height: auto;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    top: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.messageBox h5 {
+    background-color: #353441;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 1vw;
+    max-height: auto;
+    padding: 1vw;
+    color: #fff;
+}
+
+.messageBox p {
+    font-size: 1.4vw;
+    padding: 1vw;
+    color: #fff;
+}
+
+.messageBox::-webkit-scrollbar {
+    display: none;
+}
+
+.input {
+    width: 85%;
+    padding: 0.6vw;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.messageInput {
+    top: 83vh;
+    left: 10%;
+    width: 90%;
+    position: absolute;
+}
+
+.submitBtn {
+    margin-left: 2vw;
+    padding: 4px 6px;
+    background-color: #ffffff;
+    border-style: none;
+    font-size: 1.2vw;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
